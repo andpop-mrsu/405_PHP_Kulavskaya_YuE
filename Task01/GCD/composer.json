@@ -1,0 +1,16 @@
+{
+    "name": "juliakulav/gcd",
+    "description": "Console game Greatest Common Divisor",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": ["bin/gcd"]
+}
