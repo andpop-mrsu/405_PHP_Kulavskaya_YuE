@@ -47,8 +47,9 @@ function startGame(): void
             $score++;
         } else {
             showResult(false, $correct);
-            break;
         }
+        
+        line(""); // пустая строка между раундами
     }
     
     showGameEnd($name, $score, $totalRounds);
