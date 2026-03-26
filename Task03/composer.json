@@ -1,0 +1,21 @@
+{
+    "name": "juliakulav/gcd-slim",
+    "description": "REST API для игры НОД на Slim",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Juliakulav\\GcdSlim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuliaKulav",
+            "email": "yuliya29052001@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.8"
+    }
+}
